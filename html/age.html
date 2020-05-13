@@ -1,0 +1,181 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musah ibrahim ali series of javascript projects</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animation.css">
+</head>
+<body>
+<header class="main-header">
+    <div class="logo">
+        <h1><a href="age.html">MIA STUDIOS</a></h1>
+    </div>
+    <nav class="main-navigation">
+        <ul>
+            <li><a href="age.html">age</a></li>
+            <li><a href="rock.html">rock</a></li>
+            <li><a href="blackjack.html">black jack</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!--animation container-->
+<div class="animation-container">
+    <div class="hero">
+        <div class="highway"></div>
+        <div class="city"></div>
+        <div class="car">
+            <img src="../images/image/car.png" alt="car"/>
+        </div>
+        <div class="wheel">
+            <img class="front-wheel" src="../images/image/wheel.png" alt="wheel"/>
+            <img class="back-wheel" src="../images/image/wheel.png" alt="whee2"/>
+        </div>
+    </div>
+</div>
+
+
+<!--main content of the page-->
+<div class="main-content">
+    <!--months-->
+    <div class="container">
+        <div class="heading">
+            <h2>Calculate your age in months</h2>
+        </div>
+        <div class="flex-box-icons">
+            <div>
+                <button class="cal-age-icon" onclick="getYearsInMonths()">age</button>
+            </div>
+            <div>
+                <button class="reset-field-icon" onclick="resetMonths()">reset</button>
+            </div>
+        </div>
+        <div class="flex-box-results">
+            <div id="results-months">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- weeks-->
+    <div class="container">
+        <div class="heading">
+            <h2>Calculate your age in weeks</h2>
+        </div>
+        <div class="flex-box-icons">
+            <div>
+                <button class="cal-age-icon" onclick="getYearsInWeeks()">age</button>
+            </div>
+            <div>
+                <button class="reset-field-icon" onclick="resetWeeks()">reset</button>
+            </div>
+        </div>
+        <div class="flex-box-results">
+            <div id="results-weeks">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- days-->
+    <div class="container">
+        <div class="heading">
+            <h2>Calculate your age in days</h2>
+        </div>
+        <div class="flex-box-icons">
+            <div>
+                <button class="cal-age-icon" onclick="getYearsInDays()">age</button>
+            </div>
+            <div>
+                <button class="reset-field-icon" onclick="resetDays()">reset</button>
+            </div>
+        </div>
+        <div class="flex-box-results">
+            <div id="results-days">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- hours-->
+    <div class="container">
+        <div class="heading">
+            <h2>Calculate your age in hours</h2>
+        </div>
+        <div class="flex-box-icons">
+            <div>
+                <button class="cal-age-icon" onclick="getYearsInHours()">age</button>
+            </div>
+            <div>
+                <button class="reset-field-icon" onclick="resetHours()">reset</button>
+            </div>
+        </div>
+        <div class="flex-box-results">
+            <div id="results-hours">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- minutes-->
+    <div class="container">
+        <div class="heading">
+            <h2>Calculate your age in minutes</h2>
+        </div>
+        <div class="flex-box-icons">
+            <div>
+                <button class="cal-age-icon" onclick="getYearsInMinutes()">age</button>
+            </div>
+            <div>
+                <button class="reset-field-icon" onclick="resetMinutes()">reset</button>
+            </div>
+        </div>
+        <div class="flex-box-results">
+            <div id="results-minutes">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- seconds-->
+    <div class="container">
+        <div class="heading">
+            <h2>Calculate your age in seconds</h2>
+        </div>
+        <div class="flex-box-icons">
+            <div>
+                <button class="cal-age-icon" onclick="getYearsInSeconds()">age</button>
+            </div>
+            <div>
+                <button class="reset-field-icon" onclick="resetSeconds()">reset</button>
+            </div>
+        </div>
+        <div class="flex-box-results">
+            <div id="results-seconds">
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer class="main-footer">
+    <div class="icons">
+        <ul>
+            <li><a href="https://web.facebook.com/musah.ibrahim.3958" target="_blank"><img
+                    src="../images/icons/social-facebook.png" alt="facebook"></a></li>
+            <li><a href="https://twitter.com/musahibrahimali" target="_blank"><img
+                    src="../images/icons/social-twitter.png" alt="twitter"></a></li>
+            <li><a href="https://www.linkedin.com/in/ibrahim-musah-820600ab/" target="_blank"><img src="../images/icons/social-linkedin.png" alt="linkedin"></a></li>
+            <li><a href="https://www.youtube.com/channel/UC18OkCnXeAjBDwNqDJrRMCQ?view_as=subscriber"
+                   target="_blank"><img src="../images/icons/social-youtube.png" alt="youtube"></a></li>
+        </ul>
+    </div>
+    <p id="copyright">&copy; musahibrahimali (MIA STUDIO) 2020</p>
+</footer>
+
+<!--The script for the page-->
+<script src="../js/age.js"></script>
+</body>
+</html>

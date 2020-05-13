@@ -1,0 +1,104 @@
+
+.main-heading-container{
+    text-align: center;
+}
+.main-heading-container h2{
+    font-size: 55px;
+    letter-spacing: 35px;
+}
+.main-heading-container h3{
+    font-size: 18px;
+    letter-spacing: 35px;
+}
+
+#user-box{
+    text-align: center;
+    height: 550px;
+}
+
+#dealer-box{
+    text-align: center;
+    height: 550px;
+}
+
+.flex-black-jack-row-1{
+    border: 1px solid black;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+
+.flex-black-jack-row-1 div{
+    border: 1px solid black;
+    text-align: center;
+    flex: 1;
+    padding: 10px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex-black-jack-row-1 img{
+    width: 25%;
+}
+
+.flex-black-jack-row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 5px;
+}
+.flex-black-jack-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-black-jack-row-3{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.hit-button-css, .stand-button-css, .deal-button-css{
+    width: 90px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 2px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hit-button-css{
+    background-color: blue;
+}
+
+.stand-button-css{
+    background-color: darkorange;
+}
+
+.deal-button-css{
+    background-color: darkred;
+}
+
+#user-box img{
+    margin: 10px;
+}
+
+#dealer-box img{
+    margin: 10px;
+}

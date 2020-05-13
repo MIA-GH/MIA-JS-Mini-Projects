@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musah ibrahim ali series of javascript projects</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <link rel="stylesheet" href="../css/rock.css">
+</head>
+<body>
+<header class="main-header">
+    <div class="logo">
+        <h1><a href="age.html">MIA STUDIOS</a></h1>
+    </div>
+    <nav class="main-navigation">
+        <ul>
+            <li><a href="age.html">age</a></li>
+            <li><a href="rock.html">rock</a></li>
+            <li><a href="blackjack.html">black jack</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="animation-container">
+    <div class="hero">
+        <div class="highway"></div>
+        <div class="city"></div>
+        <div class="car">
+            <img src="../images/image/car.png" alt="car"/>
+        </div>
+        <div class="wheel">
+            <img class="front-wheel" src="../images/image/wheel.png" alt="wheel"/>
+            <img class="back-wheel" src="../images/image/wheel.png" alt="whee2"/>
+        </div>
+    </div>
+</div>
+
+<div class="main-content">
+    <div class="rock-paper-scissor-heading">
+        <h2>rock, paper and scissor game</h2>
+    </div>
+    <div class="game-asset-container">
+        <div class="flex-box-rps" id="rps-flex-box-rps-div">
+            <img id="rock" src="../images/images/rock.png" width="150px" height="150px" alt="rock"
+                 onclick="rpsGame(this)">
+            <img id="paper" src="../images/images/paper.png" width="150px" height="150px" alt="paper"
+                 onclick="rpsGame(this)">
+            <img id="scissors" src="../images/images/scissors.png" width="150px" height="150px" alt="scissor"
+                 onclick="rpsGame(this)">
+        </div>
+    </div>
+
+    <div class="changeButtonColorContainer">
+        <div class="button-flex-box">
+            <form action="" id="forms">
+                <select name="backdrop" id="background" onchange="changeButtonColor(this)">
+                    <option value="random">Random</option>
+                    <option value="red">red</option>
+                    <option value="green">green</option>
+                    <option value="yellow">yellow</option>
+                    <option value="blue">blue</option>
+                    <option value="reset">reset</option>
+                </select>
+            </form>
+
+            <button class="blueButton">Google</button>
+            <button class="yellowButton">Yahoo</button>
+            <button class="greenButton">Bing</button>
+            <button class="redButton">Microsoft</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<footer class="main-footer">
+    <div class="icons">
+        <ul>
+            <li><a href="https://web.facebook.com/musah.ibrahim.3958" target="_blank"><img
+                    src="../images/icons/social-facebook.png" alt="facebook"></a></li>
+            <li><a href="https://twitter.com/musahibrahimali" target="_blank"><img
+                    src="../images/icons/social-twitter.png" alt="twitter"></a></li>
+            <li><a href="https://www.linkedin.com/in/ibrahim-musah-820600ab/" target="_blank"><img src="../images/icons/social-linkedin.png" alt="linkedin"></a></li>
+            <li><a href="https://www.youtube.com/channel/UC18OkCnXeAjBDwNqDJrRMCQ?view_as=subscriber"
+                   target="_blank"><img src="../images/icons/social-youtube.png" alt="youtube"></a></li>
+        </ul>
+    </div>
+    <p id="copyright">&copy; musahibrahimali (MIA STUDIO) 2020</p>
+</footer>
+
+<script src="../js/rock.js"></script>
+</body>
+</html>

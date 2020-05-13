@@ -1,0 +1,121 @@
+.rock-paper-scissor-heading{
+    text-align: center;
+}
+
+.rock-paper-scissor-heading h2{
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0 10px 50px rgba(37, 50, 233, 1);
+}
+
+.flex-box-rps{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.game-asset-container{
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+}
+
+.changeButtonColorContainer{
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid black;
+}
+#forms{
+    margin-top: 30px;
+}
+#forms select{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button-flex-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.button-flex-box button{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.blueButton{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.yellowButton{
+    background-color: darkgoldenrod;
+    color: white;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.greenButton{
+    background-color: green;
+    color: white;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.redButton{
+    background-color: darkred;
+    color: white;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.newRed{
+    background-color: darkred;
+    color: white;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.newBlue{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.newGreen{
+    background-color: darkgreen;
+    color: white;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.newYellow{
+    background-color: darkgoldenrod;
+    color: white;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
